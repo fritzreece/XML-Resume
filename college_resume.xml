@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+[
+	<!ENTITY ndash "&#8211;">
+]>
+<!-- <?xml-stylesheet type="text/xsl" href="basic_resume.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="college_resume.xsl"?>
+<resume>
+	<basic>
+		<name>
+			<first>Franklin</first>
+			<mi>A</mi>
+			<last>Reece</last>
+		</name>
+		<email>freece@ucsd.edu</email>
+		<phone>
+			<countrycode>+1</countrycode>
+			<areacode>773</areacode>
+			<number>870-2806</number>
+		</phone>
+		<address>
+			<street>4047 N Paulina St</street>
+			<city>Chicago</city>
+			<state>IL</state>
+			<country>United States</country>
+			<zip>60613</zip>
+		</address>
+	</basic>
+	<education>
+		<program>
+			<institution>
+				<name>University of California &ndash; San Diego</name>
+				<address>
+					<street>9500 Gilman Dr</street>
+					<city>La Jolla</city>
+					<state>CA</state>
+					<country>United States</country>
+					<zip>92093</zip>
+				</address>
+			</institution>
+			<degree>Bachelor of Science, Mathematics &ndash; Computer Science</degree>
+			<!-- <gpa>Good</gpa> -->
+			<time>
+				Expected Jun 2020
+			</time>
+		</program>
+		<!-- Leftover High School Education Data -->
+		<!-- <program>
+			<institution>
+				<name>University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<level>College Preparatory Curriculum</level>
+			<gpa>Good</gpa>
+			<time>
+				<date>
+					<year>2016</year>
+					<month>June</month>
+				</date>
+			</time>
+		</program> -->
+	</education>
+	<workExperience>
+		<job relevant="false">
+			<institution>
+				<name>Summer Lab - University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<title>Classroom Assistant</title>
+			<title>Technology Coordinator</title>
+			<time>
+				<date type="startDate">
+					<year>2013</year>
+					<month>June</month>
+				</date>
+				<date type="endDate">
+					<year>2013</year>
+					<month>August</month>
+				</date>
+			</time>
+			<description>
+				<item>Assisted the Stock Market class teacher in keeping students on task, resulting in a more effective learning environment.</item>
+				<item>Facilitated lessons in a 3rd-grade math class, coached students on effective arithmetic techniques, and evaluated student performance, streamlining the flow from assessment to meaningful feedback.</item>
+				<item>Administrated the distribution of laptop computers across various classrooms, ensuring proper function.</item>
+			</description>
+		</job>
+		<job relevant="true">
+			<institution>
+				<name>Summer Lab - University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<title>Assistant Teacher of Computer Science &amp; Web Design</title>
+			<time>
+				Jun 2014,'15,'16 - Aug 2014,'15,'16
+			</time>
+			<description>
+				<item>Guided High School freshmen through exercises in HTML, CSS, and JavaScript in accordance with the Lab School's Intro to Computer Science curriculum.</item>
+                <item>Taught students age 10 - 14 years HTML, CSS, JavaScript, and PHP, as well as good design practices, helping them learn to express themselves through web technology.</item>
+                <item>Researched newer facets of HTML5 and CSS3, thereby letting students utilize more efficient functionality.</item>
+                <item>Evaluated student performance on course work and wrote constructive feedback.</item>
+                <item>Created and debugged the class's examples and frameworks allowing easier and deeper understanding of core programming and web development concepts.</item>
+			</description>
+		</job>
+	</workExperience>
+	<activities>
+		<activity>
+			<name>Math Team</name>
+			<institution>
+				<name>University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2014</year>
+					<month>March</month>
+				</date>
+				<date type="endDate">
+					<year>2016</year>
+					<month>June</month>
+				</date>
+			</time>
+			<description>
+				Won 1st place in 2015 ICTM State competition overall (division 2A), and won 1st place for Orals in division 2A.
+			</description>
+		</activity>
+		<activity>
+			<name>Feminist Club</name>
+			<institution>
+				<name>University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2014</year>
+					<month>November</month>
+				</date>
+				<date type="endDate">
+					<year>2015</year>
+					<month>June</month>
+				</date>
+			</time>
+			<description>
+				Discussed political issues and current events through an intersectional feminist lens.
+			</description>
+		</activity>
+		<!-- <activity>
+			<name>U-High Theater Company</name>
+			<institution>
+				<name>University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2014</year>
+					<month>April</month>
+				</date>
+				<date type="endDate">
+					<year>2016</year>
+					<month>June</month>
+				</date>
+			</time>
+			<description>
+				Played and wrote music for high school musicals, as well as helping build sets.
+			</description>
+		</activity> -->
+		<activity>
+			<name>Coding Club</name>
+			<institution>
+				<name>University of Chicago Laboratory Schools</name>
+				<address>
+					<street>1362 E 59th St</street>
+					<city>Chicago</city>
+					<state>IL</state>
+					<country>United States</country>
+					<zip>60637</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2015</year>
+					<month>September</month>
+				</date>
+				<date type="endDate">
+					<year>2016</year>
+					<month>January</month>
+				</date>
+			</time>
+			<description>
+				Discussed various aspects of programming, including languages, paradigms, frameworks, APIs, etc.
+			</description>
+		</activity>
+		<activity>
+			<name>Triton Gaming</name>
+			<institution>
+				<name>University of California &ndash; San Diego</name>
+				<address>
+					<street>9500 Gilman Dr</street>
+					<city>La Jolla</city>
+					<state>CA</state>
+					<country>United States</country>
+					<zip>92093</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2016</year>
+					<month>September</month>
+				</date>
+			</time>
+			<description>
+				Just getting started; Got involved in a few events for competitive games, game development, and VR. Hope to get involved more in the gaming community, especially for Super Smash Bros. Melee.
+			</description>
+		</activity>
+		<activity>
+			<name>Society for Undergraduate Mathematics Majors</name>
+			<institution>
+				<name>University of California &ndash; San Diego</name>
+				<address>
+					<street>9500 Gilman Dr</street>
+					<city>La Jolla</city>
+					<state>CA</state>
+					<country>United States</country>
+					<zip>92093</zip>
+				</address>
+			</institution>
+			<time>
+				<date type="startDate">
+					<year>2016</year>
+					<month>September</month>
+				</date>
+			</time>
+			<description>
+				Just getting started; hoping to go to talks about mathematical subjects not necessarily relevant to UCSD's core curriculum, and participate in a space that harbors math enthusiasts like myself.
+			</description>
+		</activity>
+	</activities>
+	<skills>
+		<category name="Programming Languages">
+			<skillLevel name="Highly Knowledgeable">
+				<skill>HTML</skill>
+				<skill>CSS</skill>
+				<skill>JavaScript</skill>
+				<skill>PHP</skill>
+				<skill>XML</skill>
+				<skill>XSLT</skill>
+			</skillLevel>
+			<skillLevel name="Proficient">
+				<skill>Java</skill>
+				<skill>Python</skill>
+				<skill>SQL</skill>
+			</skillLevel>
+		</category>
+		<category name="Other Computing Stuff">
+			<skillLevel name="Proficient">
+				<skill>Unix-like CLI's</skill>
+				<skill>VIM</skill>
+			</skillLevel>
+		</category>
+		<category name="Creation Software">
+			<skillLevel name="Proficient">
+				<skill>Blender</skill>
+				<skill>Adobe Photoshop</skill>
+				<skill>Adobe Illustrator</skill>
+				<skill>GIMP</skill>
+				<skill>Ableton Live</skill>
+			</skillLevel>
+		</category>
+		<skill type="descriptive">
+			Able to speak precisely and succinctly about computing concepts through years of helping teach computer science.
+		</skill>
+	</skills>
+	<relevantCourse>
+		Computer Science (AP and College Level)
+	</relevantCourse>
+	<relevantCourse>
+		Number Theory
+	</relevantCourse>
+	<relevantCourse>
+		Computer-Aided Design
+	</relevantCourse>
+</resume>
