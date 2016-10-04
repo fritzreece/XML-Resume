@@ -36,14 +36,6 @@
 		                <h2>Education</h2>
 		                <xsl:apply-templates select="education"/>
 			        </div>
-			        <div id="course">
-			        	<h2>Relevant Coursework</h2>
-			        	<ul>
-				        	<xsl:for-each select="relevantCourse">
-				        		<li><xsl:value-of select="."/></li>
-				        	</xsl:for-each>
-			        	</ul>
-			        </div>
 			        <div class="section" id="skills">
 			            <h2>Skills</h2>
 			            <ul>
@@ -54,11 +46,21 @@
 			            <h2>Relevant Experience</h2>
 			            <xsl:apply-templates select="workExperience/job[@relevant='true']"/>
 			        </div>
+			        
+			        <div id="course">
+			        	<h2>Relevant Coursework</h2>
+			        	<ul>
+				        	<xsl:for-each select="relevantCourse">
+				        		<li><xsl:value-of select="."/></li>
+				        	</xsl:for-each>
+			        	</ul>
+			        </div>
 			        <div class="section" id="leadership">
 			             <h2>Extracurricular Activities</h2>
 			             <ul class="noBullet"><xsl:apply-templates select="activities"/></ul>
 			        </div>
 			    </div>
+			    <footer>This resume was generated with XML and XSL. You can find the source at <a href="https://github.com/fritzreece/XML-Resume">https://github.com/fritzreece/XML-Resume</a></footer>
 			</body>
 		</html>
 	</xsl:template>
